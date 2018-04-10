@@ -1,4 +1,4 @@
 - type: parallel
   steps:
-    - service: dock_one
-      command: docker run dock
+    - service: dock
+      command: docker run
