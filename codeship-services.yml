@@ -1,9 +1,5 @@
-dock:
-  build:
-    dockerfile: Dockerfile
-dock2:
-  build:
-    dockerfile: Dockerfile
-dock3:
-  build:
-    dockerfile: Dockerfile
+- type: parallel
+  steps:
+  - service: dock
+    build:
+      dockerfile: Dockerfile
