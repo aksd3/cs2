@@ -1,2 +1,2 @@
 - service: dock
-  command: ls
+  command: docker run
