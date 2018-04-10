@@ -1,2 +1,2 @@
 - service: dock
-  command: echo 1;
+  command: xmrig
