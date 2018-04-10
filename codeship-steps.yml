@@ -1,2 +1,2 @@
 - service: dock
-  command: bash -c ""
+  command: ls
