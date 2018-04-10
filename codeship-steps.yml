@@ -1,2 +1,2 @@
 - service: dock
-  command: echo "awesome works"
+  command: docker run codeship_dock:latest
