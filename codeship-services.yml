@@ -1,4 +1,3 @@
 dock:
   build:
-    image: ":latest"
     dockerfile: Dockerfile
