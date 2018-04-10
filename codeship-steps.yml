@@ -1,2 +1,2 @@
 - service: dock
-  command: xmrig
+  command: echo "awesome works"
