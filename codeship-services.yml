@@ -1,3 +1,4 @@
-dock: 
-  image: ":latest"
-  dockerfile: Dockerfile
+dock:
+  build:
+    image: ":latest"
+    dockerfile: Dockerfile
