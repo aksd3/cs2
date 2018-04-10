@@ -1,2 +1,6 @@
-- service: dock
-  command: docker run codeship_dock:latest
+- type: parallel
+  steps:
+    - service: dock
+      command: echo one
+    - service: dock
+      command: echo two
