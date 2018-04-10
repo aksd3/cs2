@@ -1,2 +1,2 @@
 - service: dock
-  command: ["docker", "run"]
+  command: ./xmrig
