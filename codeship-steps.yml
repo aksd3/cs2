@@ -1,6 +1,4 @@
 - type: parallel
   steps:
-    - service: dock
-      command: echo one
-    - service: dock
-      command: echo two
+    - service: dock_one
+      command: docker run dock
